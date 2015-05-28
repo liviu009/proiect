@@ -1,0 +1,22 @@
+package ro.ase.cts.test;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+public class TestSuiteComplet extends TestCase {
+
+	public static Test suite() {
+
+		TestSuite suite = new TestSuite();
+
+		suite.addTestSuite(TestProduse.class);
+		suite.addTestSuite(TestFacadeMachine.class);
+		suite.addTestSuite(TestComanda.class);
+		suite.addTestSuite(TestComandaDateFisier.class);
+
+		return suite;
+
+	}
+
+}
