@@ -19,6 +19,7 @@ public class TestFacadeMachine extends TestCase {
 
 	Comanda comanda;
 
+	
 	public TestFacadeMachine(String message) {
 		super(message);
 	}
